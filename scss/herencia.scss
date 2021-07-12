@@ -1,0 +1,17 @@
+%clases{
+    width: 100px;
+    height: 100px;
+}
+
+.caja{
+    @extend %clases;
+    color: black
+}
+.caja1{
+    @extend %clases;
+    color: black
+}
+.caja2{
+    @extend %clases;
+    color: black;
+}

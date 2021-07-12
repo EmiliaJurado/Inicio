@@ -1,0 +1,7 @@
+@import 'valiables';
+@mixin mix {
+    @media (min-widht: #{tamano}){
+        @content
+    }
+    
+}

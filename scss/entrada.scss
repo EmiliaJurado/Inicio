@@ -1,0 +1,22 @@
+@use '_variable';
+$color:#0041bb;
+
+body{
+    background-color: _variable.$color;
+}
+.boton{
+color:#ff0000;
+&:hover{
+    background-color: variable.$color;
+}
+}
+div{
+    .boton{
+        background-color: aqua;
+    }
+}
+@media(min-width:variables.$tamano){
+    .boton{
+        color: aquamarine;
+    }
+}
